@@ -1,9 +1,6 @@
 {
   "parser": "@typescript-eslint/parser",
   "extends": "prettier",
-  "rules": {
-    "react/display-name": "off"
-  },
   "parserOptions": {
     "ecmaVersion": 2022
   }
