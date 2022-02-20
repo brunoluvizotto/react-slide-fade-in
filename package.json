@@ -1,6 +1,6 @@
 {
   "name": "react-slide-fade-in",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Customizable slide fade-in animation for react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
