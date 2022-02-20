@@ -5,6 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Bruno Luvizotto",
+  "repository": {
+    "url": "git@github.com:brunoluvizotto/react-slide-fade-in.git",
+    "type": "git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "tsc"
