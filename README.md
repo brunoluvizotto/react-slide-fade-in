@@ -14,23 +14,25 @@ or
 
 ## Props
 
-The container components receives the following props:
+The container component receives the following props:
 ```typescript
-// Position to slide in from
-from: 'top' | 'bottom' | 'left' | 'right' 
+{
+  // Position to slide in from
+  from: 'top' | 'bottom' | 'left' | 'right' 
 
-// Offset from final position in pixels
-positionOffset: number
+  // Offset from final position in pixels
+  positionOffset: number
 
-// Offset for the trigger in pixels 
-// (to trigger before or after the final position is visible)
-triggerOffset: number
+  // Offset for the trigger in pixels 
+  // (to trigger before or after the final position is visible)
+  triggerOffset: number
 
-// [Optional] Fade animation start delay in milliseconds. Default: 0 ms
-delayInMilliseconds?: number
+  // [Optional] Fade animation start delay in milliseconds. Default: 0 ms
+  delayInMilliseconds?: number
 
-// [Optional] Fade animation duration in milliseconds. Default: 1200 ms
-durationInMilliseconds?: number
+  // [Optional] Fade animation duration in milliseconds. Default: 1200 ms
+  durationInMilliseconds?: number
+}
 ```
 
 ## Usage
@@ -38,54 +40,56 @@ durationInMilliseconds?: number
 ```typescript
 import { FadeIn } from 
 
-<div>
-  <FadeIn 
-    from="bottom"
-    positionOffset={400}
-    triggerOffset={200}
-    delayInMilliseconds={0}
-  >
-    Child 1
-  </FadeIn>
-  <FadeIn
-    from="top"
-    positionOffset={400}
-    triggerOffset={400}
-    delayInMilliseconds={200}
-  >
-    Child 2
-  </FadeIn>
-  <FadeIn
-    from="left"
-    positionOffset={400}
-    triggerOffset={200}
-    delayInMilliseconds={400}
-  >
-    Child 3
-  </FadeIn>
-  <FadeIn
-    from="right"
-    positionOffset={400}
-    triggerOffset={200}
-    delayInMilliseconds={600}
-  >
-    Child 4
-  </FadeIn>
-  <FadeIn
-    from="bottom"
-    positionOffset={0}
-    triggerOffset={0}
-    delayInMilliseconds={800}
-  >
-    Child 5
-  </FadeIn>
-  <FadeIn
-    from="bottom"
-    positionOffset={0}
-    triggerOffset={0}
-    delayInMilliseconds={1000}
-  >
-    Child 6
-  </FadeIn>
-</div>
+export const Example: FC = () => (
+  <div>
+    <FadeIn 
+      from="bottom"
+      positionOffset={400}
+      triggerOffset={200}
+      delayInMilliseconds={0}
+    >
+      Child 1
+    </FadeIn>
+    <FadeIn
+      from="top"
+      positionOffset={400}
+      triggerOffset={400}
+      delayInMilliseconds={200}
+    >
+      Child 2
+    </FadeIn>
+    <FadeIn
+      from="left"
+      positionOffset={400}
+      triggerOffset={200}
+      delayInMilliseconds={400}
+    >
+      Child 3
+    </FadeIn>
+    <FadeIn
+      from="right"
+      positionOffset={400}
+      triggerOffset={200}
+      delayInMilliseconds={600}
+    >
+      Child 4
+    </FadeIn>
+    <FadeIn
+      from="bottom"
+      positionOffset={0}
+      triggerOffset={0}
+      delayInMilliseconds={800}
+    >
+      Child 5
+    </FadeIn>
+    <FadeIn
+      from="bottom"
+      positionOffset={0}
+      triggerOffset={0}
+      delayInMilliseconds={1000}
+    >
+      Child 6
+    </FadeIn>
+  </div>
+)
 ```
