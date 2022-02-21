@@ -1,6 +1,6 @@
 {
   "name": "react-slide-fade-in",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Customizable slide fade-in animation for react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,12 @@
     "url": "git@github.com:brunoluvizotto/react-slide-fade-in.git",
     "type": "git"
   },
+  "keywords": [
+    "react",
+    "animation",
+    "slide",
+    "fade"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "tsc"
