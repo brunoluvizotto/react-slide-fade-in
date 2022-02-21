@@ -2,6 +2,8 @@
 
 A container component that will add a slide fade in animation to children elements.
 
+![slide-fade-in](https://user-images.githubusercontent.com/8275052/154869937-6a9d163b-e8b7-4db2-b729-24457d428ac8.gif)
+
 ## Installation
 
 `yarn add react-slide-fade-in`
@@ -87,4 +89,3 @@ import { FadeIn } from
   </FadeIn>
 </div>
 ```
-![slide-fade-in](https://user-images.githubusercontent.com/8275052/154869937-6a9d163b-e8b7-4db2-b729-24457d428ac8.gif)
