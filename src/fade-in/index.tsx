@@ -8,6 +8,7 @@ type Props = {
   triggerOffset: number
   delayInMilliseconds?: number
   durationInMilliseconds?: number
+  children?: React.ReactNode
 }
 
 const defaultProps = {
